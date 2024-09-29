@@ -1,0 +1,260 @@
+/* Navbar */
+.navbar-brand {
+    font-family: Viga;
+    font-size: 25px;
+}
+.nav-link {
+    margin-right: 30px;
+}
+.nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid white;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+.navbar-brand span {
+    color: #FFFCA5;
+}
+
+
+/*CSS beranda */
+.jumbotron{
+    text-align: center;
+    background-image: url(../img/back3.jpg);
+    background-size: cover;
+    height: 900px;
+    margin-top: -120px;
+}
+.jumbotron .display-4 {
+    color: white;
+    margin-top: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+    font-weight: 200;
+    font-size: 40px;
+}
+.jumbotron .display-4 span {
+    font-weight: 500;
+}
+.jumbotron p {
+    color: white;
+}
+.jumbotron hr{
+    border-color: white;
+}
+.jumbotron .btn {
+    border-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.footer {
+    text-align: center;
+}
+
+
+
+/*CSS konten prosesor */
+.grid {
+    padding-top: 125px;
+    text-align: justify;
+}
+.grid h1{
+    text-align: center;
+    font-family: Playfair;
+}
+.grid h2 {
+    font-family: Playfair;
+}
+.grid h3 {
+    font-family: Playfair;
+}
+.jkonten {
+    padding-top: 125px;
+}
+.jkonten hr {
+    border-color: black;
+}
+.footer2 {
+    padding: 25px;
+    text-align: center;
+    background-color: #2A3132;
+}
+.footer2 p{
+    color: white;
+}
+.grid .background-bg {
+    background-image: url(../img/6new.jpg);
+    margin-top: -50px;
+    height: 300px;
+    width: 300px;
+}
+
+
+/* css info panel-card*/
+.info-panel {
+    padding: 90px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    text-align: justify;
+}
+.info-panel .card-img-top {
+    border-radius: 10px;
+}
+.info-panel .judul h2 {
+    font-family: Fira Sans;
+    color: #474747;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+.card1 {
+    margin-left: 10px;
+}
+.card2 {
+    margin-left: 30px;
+}
+.card3 {
+    margin-left: 50px;
+}
+.card-body {
+    background-color: #F4F4F4;
+    border-radius: 10px;
+}
+.info-panel .judul {
+    text-align: center;
+    font-family: Playfair;
+}
+
+
+
+/* jumbotron fluid konten*/
+.jumbotronkonten {
+    background-image: url(../img/prsh.jpg);
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    margin-top: -430px; 
+}
+.jumbotronkonten .display-5 {
+    padding-top: 290px;
+    color: #FFFCA5 ;
+    text-align: center;
+    margin-top: 450px;
+    margin-left: 0px;
+    font-weight: 300;
+    font-size: 50px;
+}
+.jumbotronkonten .display-5 span {
+    color: white;
+    font-weight: 400;
+}
+
+/* jumbotron tentang */
+
+/* awalan*/
+.what {
+    
+    text-align: center;
+    font-family: Assistant;
+    padding: 20px;
+    background-color: #715e5e;
+}
+.what h1 {
+    color: black ;
+    font-size: 32px;
+    text-align: center;
+}
+.what span {
+    color: #800000;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.wedo {
+    padding: 40px;
+    background-color: #EFF0F0;
+    text-align: center;
+    font-family: Assistant;
+    margin-top: 70px;
+}
+.wedo span {
+    color: #FFFCA5;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.wedo p{
+    color: #4a4a4a ;
+    font-size: 19px;
+    text-align: center;
+}
+/*CSS login */
+body{
+	font-family: sans-serif;
+	background: #d3d2d2;
+}
+ 
+h1{
+	text-align: center;
+	/*ketebalan font*/
+	font-weight: 300;
+}
+ 
+.tulisan_login{
+	text-align: center;
+	/*membuat semua huruf menjadi kapital*/
+	text-transform: uppercase;
+}
+ 
+.kotak_login{
+	width: 350px;
+	background: white;
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: 30px 20px;
+	box-shadow: 0px 0px 100px 4px #d6d6d6;
+}
+ 
+label{
+	font-size: 11pt;
+}
+ 
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+ 
+.tombol_login{
+	background: #2aa7e2;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+ 
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
+ 
+.alert{
+	background: #e44e4e;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	border:1px solid #b32929;
+}
+
+/*membuat form pemesanan*/
+
+
+
+
+
+
+
